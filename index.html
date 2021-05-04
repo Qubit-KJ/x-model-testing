@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>kljqfklsdjfnlkjsadf</title>
+    <title>Bruhhhhhhhhh</title>
 
     <style>
-      
-      :root {
+
+    :root{
       transform-style:flat!important;
     }
 
@@ -17,8 +17,6 @@
     }
     
     .model { 
-      width: 400px;
-      height: 400px;
       animation: spin 10s linear infinite;
     }
 
@@ -27,28 +25,42 @@
         transform: rotateY(1turn)
       }
     }
-      
+
     </style>
   </head>
   <body>
-   <script src = "../x-model-testing/three.min.js"></script>
-   <script src = "../x-model-testing/GLTFLoader.js"></script>
-   <script src = "../x-model-testing/model-element.min.js"></script>
+  <script type = "module" src = "../x-model-testing/GLTFLoader.js"></script>
+  <script src = "../x-model-testing/three.min.js"></script>
+  <script src = "../x-model-testing/model-element.min.js"></script>
+  <canvas id = "x-model-renderLayer" width = "2880" height = "392" style = "width: 1440px; height: 196px;"></canvas>
     <x-model class = "model" src = "../x-model-testing/Duck.gltf">
-      #shadow-root (open)
         <style>
-          :host { display:inline-block;width:var(--xModelWidth,200px);height:var(--xModelHeight,150px);transform-style:var(--xModelBoundingBoxTransformStyle, preserve-3d)}.boundingBox{visibility:var(--xModelBoundingBoxVisibility, hidden);transform-style:inherit;position:relative;left:50%;top:50%;width:1px;height:1px;background:#08c}.boundingBox__face{position:absolute;width:1px;height:1px;background:#0c0}.boundingBox__face:nth-child(1){transform:translateZ(-.5px)}.boundingBox__face:nth-child(2){transform:translateZ(.5px)}.boundingBox__face:nth-child(3){transform:translateY(-.5px)rotateX(90deg)}.boundingBox__face:nth-child(4){transform:translateY(.5px)rotateX(-90deg)}.boundingBox__face:nth-child(5){transform:translateX(.5px)rotateY(-90deg)}.boundingBox__face:nth-child(6){transform:translateX(-.5px)rotateY(-90deg)}
+          #shadow-root (open)
+          :host { 
+            display:inline-block;
+            width:var(--xModelWidth,200px);
+            height:var(--xModelHeight,150px);
+            transform-style:var(--xModelBoundingBoxTransformStyle, preserve-3d)
+            }
+            .boundingBox{visibility:var(--xModelBoundingBoxVisibility, hidden);
+              transform-style:inherit;position:relative;left:50%;top:50%;width:1px;height:1px;background:#08c
+              }
+              .boundingBox__face{position:absolute;width:1px;height:1px;background:#0c0}
+              .boundingBox__face:nth-child(1){transform:translateZ(-.5px)}
+              .boundingBox__face:nth-child(2){transform:translateZ(.5px)}
+              .boundingBox__face:nth-child(3){transform:translateY(-.5px)rotateX(90deg)}
+              .boundingBox__face:nth-child(4){transform:translateY(.5px)rotateX(-90deg)}
+              .boundingBox__face:nth-child(5){transform:translateX(.5px)rotateY(-90deg)}
+              .boundingBox__face:nth-child(6){transform:translateX(-.5px)rotateY(-90deg)}
         </style>
       <div class="boundingBox" style="transform: translate(-50%, -50%) scale3d(161.138, 150, 112.23);"><div class="boundingBox__face"></div><div class="boundingBox__face"></div><div class="boundingBox__face"></div><div class="boundingBox__face"></div><div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
-      <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
+        <div class="boundingBox__face"></div>
       </div>
     </x-model>
-<!-- this is le gay -->
   </body>
-  <canvas id = "x-model-renderLayer" width = "2880" height = "392" style = "width: 1440px; height: 196px;"></canvas>
 </html>
